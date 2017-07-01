@@ -1,0 +1,427 @@
+<!doctype html>
+<meta charset=utf-8>
+<html lang=en>
+
+<head>
+    <title>Chroma Celestial Calendar - Leap Year</title>
+</head>
+
+<body>
+
+</body>
+
+<script type="text/javascript">
+
+    var stageSize = {
+        "stageWidth": window.innerWidth + "px",
+        "stageHeight": window.innerHeight + "px",
+		    
+        // 2 pixels subtracted for padding between cells
+        "sixthWidth": window.innerWidth / 6 - 2 +"px",
+        "sixthHeight": window.innerHeight / 6 - 2 + "px",
+    };
+    
+	var cellWidth = window.innerWidth / 6 ;
+	var cellHeight = window.innerHeight / 6 ;
+	
+    var violet1 = document.createElement('div1');
+    var blue2 = document.createElement('div2');
+    var green3 = document.createElement('div3');
+    var yellow4 = document.createElement('div4');
+    var orange5 = document.createElement('div5');
+	  var red6 = document.createElement('div6');
+	  var violet7 = document.createElement('div7');
+    var blue8 = document.createElement('div8');
+    var green9 = document.createElement('div9');
+    var yellow10 = document.createElement('div10');
+    var orange11 = document.createElement('div11');
+	  var red12 = document.createElement('div12');
+  	var violet13 = document.createElement('div13');
+    var blue14 = document.createElement('div14');
+    var green15 = document.createElement('div15');
+    var yellow16 = document.createElement('div16');
+    var orange17 = document.createElement('div17');
+	  var red18 = document.createElement('div18');
+	  var violet19 = document.createElement('div19');
+    var blue20 = document.createElement('div20');
+    var green21 = document.createElement('div21');
+    var yellow22 = document.createElement('div22');
+    var orange23 = document.createElement('div23');
+	  var red24 = document.createElement('div24');
+	  var violet25 = document.createElement('div25');
+    var blue26 = document.createElement('div26');
+    var green27 = document.createElement('div27');
+    var yellow28 = document.createElement('div28');
+    var orange29 = document.createElement('div29');
+	  var red30 = document.createElement('div30');
+	  var violet31 = document.createElement('div31');
+    var blue32 = document.createElement('div32');
+    var green33 = document.createElement('div33');
+    var yellow34 = document.createElement('div34');
+    var orange35 = document.createElement('div35');
+	  var red36 = document.createElement('div36');
+	
+    violet1.style.background = 'violet';
+    violet1.style.padding = '0px';
+    violet1.style.position = 'absolute';
+    violet1.style.top = '1px';
+    violet1.style.left = '0px';
+    violet1.style.width = stageSize.sixthWidth;
+    violet1.style.height = stageSize.sixthHeight;
+    violet1.innerHTML = "1 Violetday<br>";
+		
+	  blue2.style.background = 'blue';
+    blue2.style.padding = '0px';
+    blue2.style.position = 'absolute';
+    blue2.style.top = '1px';
+    blue2.style.left = cellWidth + 'px';
+    blue2.style.width = stageSize.sixthWidth;
+    blue2.style.height = stageSize.sixthHeight;
+    blue2.innerHTML = "2 Blueday<br>";
+    
+    green3.style.background = 'green';
+    green3.style.padding = '0px';
+    green3.style.position = 'absolute';
+    green3.style.top = '1px';
+    green3.style.left = cellWidth * 2 + 'px';
+    green3.style.width = stageSize.sixthWidth;
+    green3.style.height = stageSize.sixthHeight;
+    green3.innerHTML = "3 Greenday<br>";
+    
+	  yellow4.style.background = 'yellow';
+  	yellow4.style.padding = '0px';
+    yellow4.style.position = 'absolute';
+    yellow4.style.top = '1px';
+    yellow4.style.left = cellWidth * 3 + 'px';
+    yellow4.style.width = stageSize.sixthWidth;
+    yellow4.style.height = stageSize.sixthHeight;
+    yellow4.innerHTML = "4 Yellowday<br>";
+	
+    orange5.style.background = 'orange';
+    orange5.style.padding = '0px';
+    orange5.style.position = 'absolute';
+    orange5.style.top = '1px';
+    orange5.style.left = cellWidth * 4 + 'px';
+    orange5.style.width = stageSize.sixthWidth;
+    orange5.style.height = stageSize.sixthHeight;
+    orange5.innerHTML = "5 Orangeday<br>";
+    
+    red6.style.background = 'red';
+    red6.style.padding = '0px';
+    red6.style.position = 'absolute';
+    red6.style.top = '1px';
+    red6.style.left = cellWidth * 5 + 'px';
+    red6.style.width = stageSize.sixthWidth;
+    red6.style.height = stageSize.sixthHeight;
+    red6.innerHTML = "6 Redday<br>";
+	
+	  violet7.style.background = 'violet';
+    violet7.style.padding = '0px';
+    violet7.style.position = 'absolute';
+    violet7.style.top = cellHeight + 'px';
+    violet7.style.left = '0px';
+    violet7.style.width = stageSize.sixthWidth;
+    violet7.style.height = stageSize.sixthHeight;
+    violet7.innerHTML = "7 <br>";
+		
+	  blue8.style.background = 'blue';
+    blue8.style.padding = '0px';
+    blue8.style.position = 'absolute';
+    blue8.style.top = cellHeight + 'px';
+    blue8.style.left = cellWidth + 'px';
+    blue8.style.width = stageSize.sixthWidth;
+    blue8.style.height = stageSize.sixthHeight;
+    blue8.innerHTML = "8<br>";
+    
+    green9.style.background = 'green';
+    green9.style.padding = '0px';
+    green9.style.position = 'absolute';
+    green9.style.top = cellHeight + 'px';
+    green9.style.left = cellWidth * 2 + 'px';
+    green9.style.width = stageSize.sixthWidth;
+    green9.style.height = stageSize.sixthHeight;
+    green9.innerHTML = "9<br>";
+    
+	  yellow10.style.background = 'yellow';
+	  yellow10.style.padding = '0px';
+    yellow10.style.position = 'absolute';
+    yellow10.style.top = cellHeight + 'px';
+    yellow10.style.left = cellWidth * 3 + 'px';
+    yellow10.style.width = stageSize.sixthWidth;
+    yellow10.style.height = stageSize.sixthHeight;
+    yellow10.innerHTML = "10<br>";
+	
+    orange11.style.background = 'orange';
+    orange11.style.padding = '0px';
+    orange11.style.position = 'absolute';
+    orange11.style.top = cellHeight + 'px';
+    orange11.style.left = cellWidth * 4 + 'px';
+    orange11.style.width = stageSize.sixthWidth;
+    orange11.style.height = stageSize.sixthHeight;
+    orange11.innerHTML = "11<br>";
+    
+    red12.style.background = 'red';
+    red12.style.padding = '0px';
+    red12.style.position = 'absolute';
+    red12.style.top = cellHeight + 'px';
+    red12.style.left = cellWidth * 5 + 'px';
+    red12.style.width = stageSize.sixthWidth;
+    red12.style.height = stageSize.sixthHeight;
+    red12.innerHTML = "12<br>";
+	
+  	violet13.style.background = 'violet';
+    violet13.style.padding = '0px';
+    violet13.style.position = 'absolute';
+    violet13.style.top = cellHeight * 2 + 'px';
+    violet13.style.left = '0px';
+    violet13.style.width = stageSize.sixthWidth;
+    violet13.style.height = stageSize.sixthHeight;
+    violet13.innerHTML = "13 <br>";
+		
+	  blue14.style.background = 'blue';
+    blue14.style.padding = '0px';
+    blue14.style.position = 'absolute';
+    blue14.style.top = cellHeight * 2 + 'px';
+    blue14.style.left = cellWidth + 'px';
+    blue14.style.width = stageSize.sixthWidth;
+    blue14.style.height = stageSize.sixthHeight;
+    blue14.innerHTML = "14<br>";
+    
+    green15.style.background = 'green';
+    green15.style.padding = '0px';
+    green15.style.position = 'absolute';
+    green15.style.top = cellHeight * 2 + 'px';
+    green15.style.left = cellWidth * 2 + 'px';
+    green15.style.width = stageSize.sixthWidth;
+    green15.style.height = stageSize.sixthHeight;
+    green15.innerHTML = "15<br>";
+    
+	  yellow16.style.background = 'yellow';
+	  yellow16.style.padding = '0px';
+    yellow16.style.position = 'absolute';
+    yellow16.style.top = cellHeight * 2 + 'px';
+    yellow16.style.left = cellWidth * 3 + 'px';
+    yellow16.style.width = stageSize.sixthWidth;
+    yellow16.style.height = stageSize.sixthHeight;
+    yellow16.innerHTML = "16<br>";
+	
+    orange17.style.background = 'orange';
+    orange17.style.padding = '0px';
+    orange17.style.position = 'absolute';
+    orange17.style.top = cellHeight * 2 + 'px';
+    orange17.style.left = cellWidth * 4 + 'px';
+    orange17.style.width = stageSize.sixthWidth;
+    orange17.style.height = stageSize.sixthHeight;
+    orange17.innerHTML = "17<br>";
+    
+    red18.style.background = 'red';
+    red18.style.padding = '0px';
+    red18.style.position = 'absolute';
+    red18.style.top = cellHeight * 2 + 'px';
+    red18.style.left = cellWidth * 5 + 'px';
+    red18.style.width = stageSize.sixthWidth;
+    red18.style.height = stageSize.sixthHeight;
+    red18.innerHTML = "18<br>";
+	
+	  violet19.style.background = 'violet';
+    violet19.style.padding = '0px';
+    violet19.style.position = 'absolute';
+    violet19.style.top = cellHeight * 3 + 'px';
+    violet19.style.left = '0px';
+    violet19.style.width = stageSize.sixthWidth;
+    violet19.style.height = stageSize.sixthHeight;
+    violet19.innerHTML = "19 <br>";
+		
+	  blue20.style.background = 'blue';
+    blue20.style.padding = '0px';
+    blue20.style.position = 'absolute';
+    blue20.style.top = cellHeight * 3 + 'px';
+    blue20.style.left = cellWidth + 'px';
+    blue20.style.width = stageSize.sixthWidth;
+    blue20.style.height = stageSize.sixthHeight;
+    blue20.innerHTML = "20<br>";
+    
+    green21.style.background = 'green';
+    green21.style.padding = '0px';
+    green21.style.position = 'absolute';
+    green21.style.top = cellHeight * 3 + 'px';
+    green21.style.left = cellWidth * 2 + 'px';
+    green21.style.width = stageSize.sixthWidth;
+    green21.style.height = stageSize.sixthHeight;
+    green21.innerHTML = "21<br>";
+    
+	  yellow22.style.background = 'yellow';
+	  yellow22.style.padding = '0px';
+    yellow22.style.position = 'absolute';
+    yellow22.style.top = cellHeight * 3 + 'px';
+    yellow22.style.left = cellWidth * 3 + 'px';
+    yellow22.style.width = stageSize.sixthWidth;
+    yellow22.style.height = stageSize.sixthHeight;
+    yellow22.innerHTML = "22<br>";
+	
+    orange23.style.background = 'orange';
+    orange23.style.padding = '0px';
+    orange23.style.position = 'absolute';
+    orange23.style.top = cellHeight * 3 + 'px';
+    orange23.style.left = cellWidth * 4 + 'px';
+    orange23.style.width = stageSize.sixthWidth;
+    orange23.style.height = stageSize.sixthHeight;
+    orange23.innerHTML = "23<br>";
+    
+    red24.style.background = 'red';
+    red24.style.padding = '0px';
+    red24.style.position = 'absolute';
+    red24.style.top = cellHeight * 3 + 'px';
+    red24.style.left = cellWidth * 5 + 'px';
+    red24.style.width = stageSize.sixthWidth;
+    red24.style.height = stageSize.sixthHeight;
+    red24.innerHTML = "24<br>";	
+		
+	  violet25.style.background = 'violet';
+    violet25.style.padding = '0px';
+    violet25.style.position = 'absolute';
+    violet25.style.top = cellHeight * 4 + 'px';
+    violet25.style.left = '0px';
+    violet25.style.width = stageSize.sixthWidth;
+    violet25.style.height = stageSize.sixthHeight;
+    violet25.innerHTML = "25 <br>";
+		
+  	blue26.style.background = 'blue';
+    blue26.style.padding = '0px';
+    blue26.style.position = 'absolute';
+    blue26.style.top = cellHeight * 4 + 'px';
+    blue26.style.left = cellWidth + 'px';
+    blue26.style.width = stageSize.sixthWidth;
+    blue26.style.height = stageSize.sixthHeight;
+    blue26.innerHTML = "26<br>";
+    
+    green27.style.background = 'green';
+    green27.style.padding = '0px';
+    green27.style.position = 'absolute';
+    green27.style.top = cellHeight * 4 + 'px';
+    green27.style.left = cellWidth * 2 + 'px';
+    green27.style.width = stageSize.sixthWidth;
+    green27.style.height = stageSize.sixthHeight;
+    green27.innerHTML = "27<br>";
+    
+	  yellow28.style.background = 'yellow';
+	  yellow28.style.padding = '0px';
+    yellow28.style.position = 'absolute';
+    yellow28.style.top = cellHeight * 4 + 'px';
+    yellow28.style.left = cellWidth * 3 + 'px';
+    yellow28.style.width = stageSize.sixthWidth;
+    yellow28.style.height = stageSize.sixthHeight;
+    yellow28.innerHTML = "28<br>";
+	
+    orange29.style.background = 'orange';
+    orange29.style.padding = '0px';
+    orange29.style.position = 'absolute';
+    orange29.style.top = cellHeight * 4 + 'px';
+    orange29.style.left = cellWidth * 4 + 'px';
+    orange29.style.width = stageSize.sixthWidth;
+    orange29.style.height = stageSize.sixthHeight;
+    orange29.innerHTML = "29<br>";
+    
+    red30.style.background = 'red';
+    red30.style.padding = '0px';
+    red30.style.position = 'absolute';
+    red30.style.top = cellHeight * 4 + 'px';
+    red30.style.left = cellWidth * 5 + 'px';
+    red30.style.width = stageSize.sixthWidth;
+    red30.style.height = stageSize.sixthHeight;
+    red30.innerHTML = "30<br>";
+	
+	  violet31.style.background = 'violet';
+    violet31.style.padding = '0px';
+    violet31.style.position = 'absolute';
+    violet31.style.top = cellHeight * 5 + 'px';
+    violet31.style.left = '0px';
+    violet31.style.width = stageSize.sixthWidth;
+    violet31.style.height = stageSize.sixthHeight;
+    violet31.innerHTML = "31 <br>";
+		
+	  blue32.style.background = 'blue';
+    blue32.style.padding = '0px';
+    blue32.style.position = 'absolute';
+    blue32.style.top = cellHeight * 5 + 'px';
+    blue32.style.left = cellWidth + 'px';
+    blue32.style.width = stageSize.sixthWidth;
+    blue32.style.height = stageSize.sixthHeight;
+    blue32.innerHTML = "32<br>";
+    
+    green33.style.background = 'green';
+    green33.style.padding = '0px';
+    green33.style.position = 'absolute';
+    green33.style.top = cellHeight * 5 + 'px';
+    green33.style.left = cellWidth * 2 + 'px';
+    green33.style.width = stageSize.sixthWidth;
+    green33.style.height = stageSize.sixthHeight;
+    green33.innerHTML = "33<br>";
+    
+	  yellow34.style.background = 'yellow';
+	  yellow34.style.padding = '0px';
+    yellow34.style.position = 'absolute';
+    yellow34.style.top = cellHeight * 5 + 'px';
+    yellow34.style.left = cellWidth * 3 + 'px';
+    yellow34.style.width = stageSize.sixthWidth;
+    yellow34.style.height = stageSize.sixthHeight;
+    yellow34.innerHTML = "34<br>";
+	
+    orange35.style.background = 'orange';
+    orange35.style.padding = '0px';
+    orange35.style.position = 'absolute';
+    orange35.style.top = cellHeight * 5 + 'px';
+    orange35.style.left = cellWidth * 4 + 'px';
+    orange35.style.width = stageSize.sixthWidth;
+    orange35.style.height = stageSize.sixthHeight;
+    orange35.innerHTML = "35<br>";
+    
+    red36.style.background = 'red';
+    red36.style.padding = '0px';
+    red36.style.position = 'absolute';
+    red36.style.top = cellHeight * 5 + 'px';
+    red36.style.left = cellWidth * 5 + 'px';
+    red36.style.width = stageSize.sixthWidth;
+    red36.style.height = stageSize.sixthHeight;
+    red36.innerHTML = "36<br>";
+	
+  document.body.appendChild(violet1);
+	document.body.appendChild(blue2);
+	document.body.appendChild(green3);
+	document.body.appendChild(yellow4);
+	document.body.appendChild(orange5);
+	document.body.appendChild(red6);
+	document.body.appendChild(violet7);
+	document.body.appendChild(blue8);
+	document.body.appendChild(green9);
+	document.body.appendChild(yellow10);
+	document.body.appendChild(orange11);
+	document.body.appendChild(red12);
+	document.body.appendChild(violet13);
+	document.body.appendChild(blue14);
+	document.body.appendChild(green15);
+	document.body.appendChild(yellow16);
+	document.body.appendChild(orange17);
+	document.body.appendChild(red18);
+	document.body.appendChild(violet19);
+	document.body.appendChild(blue20);
+	document.body.appendChild(green21);
+	document.body.appendChild(yellow22);
+	document.body.appendChild(orange23);
+	document.body.appendChild(red24);
+	document.body.appendChild(violet25);
+	document.body.appendChild(blue26);
+	document.body.appendChild(green27);
+	document.body.appendChild(yellow28);
+	document.body.appendChild(orange29);
+	document.body.appendChild(red30);
+	document.body.appendChild(violet31);
+	document.body.appendChild(blue32);
+	document.body.appendChild(green33);
+	document.body.appendChild(yellow34);
+	document.body.appendChild(orange35);
+	document.body.appendChild(red36);
+	
+</script>
+
+</html>
