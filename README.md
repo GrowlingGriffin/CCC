@@ -2,6 +2,7 @@
 Chroma Celestial Calendar
 
 The Chroma Celestial Calendar began in 2016 on the Northern Winter Solstice 
+
 Gregorian date, Wednesday, December 21, 2:44 am 2016 (PST) ()
 
 2016 December 21, 2:44 am - 2017 Dec 21 8:28 am (PST) - Year 1
@@ -50,6 +51,9 @@ Each week starts on Redday
 
 5 - Blueday
 
+
+
+
 The Chroma Celestial Calendar changes format on a Leap Year. (Once every 4 years). 366 days in a leap year of 11 months.
 
 Each month during a leap year has 36 days, 6 days of 6 weeks, except Sun month which has only 1 week. 
@@ -92,7 +96,12 @@ During leap years, weeks are 6 days long and start on Violetday (Reverse order).
 
 6 - Redday
 
+
+
+
 Updated: Yellowday, Saturn 8, Year 1
 
-Jimmy James 
+
+- Jimmy James 
+
 Of the Growling Griffin tribe
