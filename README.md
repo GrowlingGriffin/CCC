@@ -102,6 +102,6 @@ During leap years, weeks are 6 days long and start on Violetday (Reverse order).
 Updated: Yellowday, Saturn 8, Year 1
 
 
-- Jimmy James 
+Jimmy James 
 
 Of the Growling Griffin tribe
